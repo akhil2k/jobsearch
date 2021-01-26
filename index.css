@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital@1&family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    min-height: calc(100vh - 56px - 193.2px);
+}
+
+#js_slogan {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Parisienne', cursive;
+    padding-bottom: 25px;
+}
+
+.js_bg {
+    width: 100%;
+    height: 300px;
+    background: #82B1FF;
+    text-align: center;
+    padding: 25px;
+}
+
+.js_head {
+    font-size: 43px;
+    padding-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input,
+select {
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    outline: none;
+    margin: 2px;
+    border-radius: 7px;
+}
+
+input[type="submit"] {
+    background: rgb(255, 222, 91);
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: rgb(224, 198, 94);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #82B1FF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card img {
+    margin-top: 9px;
+    height: 100px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.job_name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/*footer*/
+
+footer.main-footer {
+    background-color: #292929;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+aside.footer-widget {
+    margin-bottom: 5px;
+}
+
+aside.footer-widget h5 {
+    font-size: 16px;
+}
+
+aside.footer-widget ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside.footer-widget ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #adadad;
+    display: inline-block;
+}
+
+address h2 {
+    font-size: 20px;
+}
+
+address p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width:685px) {
+    input,
+    select,
+    option {
+        padding: 5px;
+        font-size: 20px;
+        border: 2px solid black;
+        outline: none;
+        margin: 2px;
+        width: 90%;
+    }
+    input[type="submit"] {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:737px) {
+    #js_slogan {
+        background: #82B1FF;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .js_bg {
+        width: 100%;
+        height: 600px;
+        background: #82B1FF;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
